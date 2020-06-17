@@ -102,3 +102,31 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+#projects {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px; 
+}
+
+#projects-content {
+    background-color: white;
+    padding: 50px 120px;
+    width:55%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    line-height: 35px;
+    border-radius: 5px;
+}
+#projects-content p {
+    text-align: center;
+}
+
+#projects-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
