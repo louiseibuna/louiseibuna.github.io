@@ -1,14 +1,104 @@
-.navbar {
-    overflow: hidden;
-    background-color: lightpink;
+#navbar {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
-/* Styling nav bar links*/
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
+.nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 19px;
+    margin-right: 20px;
+}
+
+.nav-items a {
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
     text-decoration: none;
+}
+
+#intro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#intro-header {
+    color: black;
+    padding-bottom: 17px;
+  }
+
+#intro-content{ 
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+    width: 50%;
+}
+
+#about {
+    background-color: #CCCCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px; 
+}
+#common-header {
+    color: black;
+    font-size: 80px
+}
+
+#about-content {
+    background-color: white;
+    padding: 50px 120px;
+    width:55%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    line-height: 35px;
+    border-radius: 5px;
+}
+#about-content p {
+    text-align: center;
+}
+
+#about-content img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experience {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px; 
+}
+
+#experience-content {
+    background-color: white;
+    padding: 50px 120px;
+    width:55%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    line-height: 35px;
+    border-radius: 5px;
+}
+#experience-content p {
+    text-align: center;
+}
+
+#experience-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
