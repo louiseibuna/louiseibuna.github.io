@@ -103,6 +103,10 @@
     margin-right: auto;
 }
 
+#experience-content h2 {
+    text-align: center;
+}
+
 #projects {
     background-color: #FFB7B2;
     display: flex;
@@ -158,6 +162,29 @@
     margin-right: auto;
 }
 
+#projects-content {
+    background-color: white;
+    padding: 50px 120px;
+    width:55%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    line-height: 35px;
+    border-radius: 5px;
+}
+
+#projects-content p {
+    text-align: center;
+}
+
+#projects-content h2 {
+    text-align: center;
+}
+
+#experience-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
@@ -196,4 +223,4 @@
     background: #007bb5;
     color: white;
   }
-  
+
