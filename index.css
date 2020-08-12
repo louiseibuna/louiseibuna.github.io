@@ -43,6 +43,12 @@
     line-height: 35px;
     width: 50%;
 }
+#intro-content img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #about {
     background-color: #C7CEEA;
@@ -69,12 +75,7 @@
     text-align: center;
 }
 
-#about-content img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #experience {
     background-color: #E2F0CB;
@@ -127,6 +128,9 @@
 #projects-content p {
     text-align: center;
 }
+#projects-content a {
+    color: black;
+}
 
 #projects-content img {
     display: block;
@@ -151,7 +155,9 @@
     line-height: 35px;
     border-radius: 5px;
 }
-
+#publications-content a {
+    color: black;
+}
 #publications-content p {
     text-align: center;
 }
